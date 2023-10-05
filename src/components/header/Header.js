@@ -4,14 +4,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = () => {
   return (
-    <Container fluid
-    className="d-flex justify-content-center">
+    <Container fluid className="d-flex justify-content-center">
       <Row>
         <Col>
           <img
             className="img-fluid"
-            src="images/header-hogar.jpg"
+            src="images/header-sanfrancisco.png"
             alt="Header"
+            style={{ width: "180px" }}
           />
         </Col>
       </Row>

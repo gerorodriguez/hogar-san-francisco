@@ -1,11 +1,16 @@
-import Carousel from "react-bootstrap/Carousel";
+import React from "react";
+import { Carousel } from "react-bootstrap";
 
-function Carousels() {
+const CarouselWords = () => {
   return (
     <Carousel>
       <Carousel.Item>
         <img alt="." className="img-fluid w-100" src="images/residencia.png" />
-        <Carousel.Caption className="d-flex justify-content-bottom"></Carousel.Caption>
+        <Carousel.Caption className="d-flex justify-content-center">
+          <h3>Hola</h3>
+          <h3>Hola</h3>
+          <h3>Hola</h3>
+        </Carousel.Caption>
       </Carousel.Item>
 
       <Carousel.Item>
@@ -18,6 +23,6 @@ function Carousels() {
       </Carousel.Item>
     </Carousel>
   );
-}
+};
 
-export default Carousels;
+export default CarouselWords;
