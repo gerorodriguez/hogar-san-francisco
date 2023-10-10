@@ -10,9 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
 
 .font-primary {
   font-family: "Playfair Display", serif;
@@ -73,9 +70,7 @@ h3{
 h1{
   font-weight: bold;
 }
-.hola{
-  color:rgb(177, 152, 152)
-}
+
 .content{
   color:rgb(138, 143, 146)
 }

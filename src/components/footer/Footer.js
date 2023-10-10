@@ -4,9 +4,12 @@ import { Container, Row, Col } from "react-bootstrap";
 const Footer = () => {
   return (
     <footer className="bg-secondary text-grey py-4">
-      <Container md="4" >
+      <Container md="4">
         <Row className="align-items-center">
-          <Col md="4" className="d-flex align-items-center justify-content-center">
+          <Col
+            md="4"
+            className="d-flex align-items-center justify-content-center"
+          >
             <img
               src="images/header-sanfr.png"
               alt="Logo"
@@ -18,19 +21,22 @@ const Footer = () => {
             <div>
               <h5>DÓNDE ESTAMOS</h5>
               <p>
-                Guevara 447/465 (C1427BTJ)
+                José Zilli 11 CP:2617
                 <br />
-                Ciudad Autónoma de Buenos Aires
+                Diego de Alvear, Santa Fe
                 <br />
                 República Argentina
                 <br />
-                Email: info@hogarledorvador.org.ar
+                Email: hogarsanfrancisco.dda@hotmail.com
                 <br />
-                Teléfono: +54 (11) 4556-2222
+                Teléfono: +54 (3462) 677137
               </p>
             </div>
           </Col>
-          <Col md="4" className="d-flex align-items-center justify-content-center text-center">
+          <Col
+            md="4"
+            className="d-flex align-items-center justify-content-center text-center"
+          >
             <div>
               <h5>SEGUINOS EN</h5>
               <a
@@ -45,7 +51,7 @@ const Footer = () => {
                 />
               </a>
               <a
-                href="https://www.facebook.com/your-facebook-link"
+                href="https://www.facebook.com/profile.php?id=100064813655438"
                 target="_blank"
                 rel="noopener noreferrer"
               >

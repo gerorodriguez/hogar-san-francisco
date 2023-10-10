@@ -42,6 +42,9 @@ const ContentBody = () => {
           Conocé más sobre nosotros
         </Button>
       </div>
+      <div>
+        
+      </div>
     </Container>
   );
 };

@@ -14,6 +14,16 @@ const Section = () => {
         className="img-thumbnail w-25 h-25"
         src="images/Screenshot_2.png"
       />
+      <img
+        alt="."
+        className="img-thumbnail w-25 h-25"
+        src="images/hogar-diego2.jpeg"
+      />
+            <img
+        alt="."
+        className="img-thumbnail w-25 h-25"
+        src="images/hogar-diego1.jpeg"
+      />
     </Container>
   );
 };

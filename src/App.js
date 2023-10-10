@@ -6,6 +6,7 @@ import ContentBody from "./components/content-body/ContentBody";
 import Section from "./components/sections/Section";
 import Footer from "./components/footer/Footer";
 import CarouselWords from "./components/carousel-words/CarouselWords";
+import Services from "./components/sections/Services";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Carousels />
       <ContentBody />
       <Section />
+      <Services />
       <CarouselWords />
       <Footer />
     </div>
