@@ -10,7 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
 .font-primary {
   font-family: "Playfair Display", serif;
 }
@@ -60,17 +59,33 @@ html {
   padding-bottom: 120px;
 }
 
-p{
+p {
   font-weight: bold;
 }
 
-h3{
+h3 {
   font-weight: bold;
 }
-h1{
+h1 {
   font-weight: bold;
 }
 
-.content{
-  color:rgb(138, 143, 146)
+.content {
+  color: rgb(138, 143, 146);
+}
+ul {
+  list-style-type: none; /* Elimina el círculo de viñeta predeterminado */
+}
+li {
+  display: flex; /* Utiliza flexbox para alinear elementos */
+}
+span {
+  font-weight: bold;
+}
+.servic {
+  color: #6a9b86;
+}
+.btn-custom {
+  background-color: #6a9b86;
+  border:none;
 }

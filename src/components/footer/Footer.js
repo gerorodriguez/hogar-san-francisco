@@ -11,7 +11,7 @@ const Footer = () => {
             className="d-flex align-items-center justify-content-center"
           >
             <img
-              src="images/header-sanfr.png"
+              src="images/header-sanfrancisco.png"
               alt="Logo"
               className="img-fluid"
               style={{ width: "185px" }}

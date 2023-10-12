@@ -5,37 +5,106 @@ const Services = () => {
   return (
     <Container>
       <div>
-        <h1>Servicios Integrales</h1>
+        <h1 className="servic">Servicios Integrales</h1>
       </div>
       <div>
         <ul>
-          <li>Atención médica integral las 24 hs.</li>
-          <li>Enfermería profesional las 24 hs.</li>
-          <li>Seguimiento médico diario</li>
-          <li>Atención psicosocial permanente</li>
-          <li>Acompañamiento Terapéutico</li>
-          <li>Kinesiología y Rehabilitación</li>
-          <li>Estimulación del movimiento</li>
-          <li>Programa de Prevención de Caídas y Movilidad</li>
-          <li>Servicio de Fonoaudiología y Neuropsicología</li>
-          <li>Terapia Ocupacional</li>
-          <li>Propuestas y actividades socio-recreativas</li>
-          <li>Programa de Cuidados Paliativos</li>
-          <li>Psicogeriatría</li>
-          <li>Unidad de Cuidados Especiales</li>
-          <li>Odontología</li>
-          <li>Dietas especializadas y Alimentación Kosher</li>
-          <li>Peluquería y Manicuría</li>
-          <li>Lavandería</li>
-          <li>Habitaciones amplias y luminosas</li>
-          <li>Espacios de esparcimiento: Jardín y Biblioteca</li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M5 12l5 5l10 -10"></path>
+            </svg>
+            <span>Enfermeria Profesional</span>
+          </li>
+          <li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M5 12l5 5l10 -10"></path>
+            </svg>
+            <span>Enfermeria Profesional</span>
+          </li><li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M5 12l5 5l10 -10"></path>
+            </svg>
+            <span>Enfermeria Profesional</span>
+          </li><li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M5 12l5 5l10 -10"></path>
+            </svg>
+            <span>Enfermeria Profesional</span>
+          </li><li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-check"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M5 12l5 5l10 -10"></path>
+            </svg>
+            <span>Enfermeria Profesional</span>
+          </li>
+
         </ul>
       </div>
       <div className="d-flex justify-content-center mb-4">
-        <Button variant="secondary" size="lg" className="mt-5">
+        <Button size="lg" className="btn-custom mt-5">
           Conocé más sobre nosotros
         </Button>
       </div>
+      
     </Container>
   );
 };

@@ -38,7 +38,7 @@ const ContentBody = () => {
         </div>
       </div>
       <div className="d-flex justify-content-center mt-2">
-        <Button variant="secondary" size="lg" className="mt-5">
+        <Button  size="lg" className="btn-custom mt-5">
           Conocé más sobre nosotros
         </Button>
       </div>
