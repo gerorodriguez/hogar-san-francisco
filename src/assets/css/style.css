@@ -1,21 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
   scroll-behavior: smooth;
-}
-
-.font-primary {
-  font-family: "Playfair Display", serif;
-}
-
-.font-secondary {
-  font-family: "Space Mono", monospace;
 }
 
 .color-primary {
@@ -59,7 +51,7 @@ html {
   padding-bottom: 120px;
 }
 
-p {
+h5 {
   font-weight: bold;
 }
 
@@ -71,21 +63,49 @@ h1 {
 }
 
 .content {
-  color: rgb(138, 143, 146);
+  color: rgb(51, 51, 51);
 }
 ul {
   list-style-type: none; /* Elimina el círculo de viñeta predeterminado */
 }
 li {
-  display: flex; /* Utiliza flexbox para alinear elementos */
 }
-span {
-  font-weight: bold;
-}
+
 .servic {
-  color: #6a9b86;
+  color: rgb(68, 68, 68);
 }
 .btn-custom {
-  background-color: #6a9b86;
-  border:none;
+  background-color: rgb(51, 51, 51);
+  border: none;
 }
+.foot {
+  background-color: #212529;
+  color: rgb(182, 180, 180);
+}
+
+p {
+  font-weight: bold;
+}
+
+.multi-column-list {
+  column-count: 2; /* Puedes ajustar este valor según la cantidad de columnas que desees */
+}
+
+.cold {
+  color: #161616;
+}
+
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Estilo para el enlace activo en la barra de navegación */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Estilo para la barra de navegación al hacer scroll */
+.navbar-dark.scrolled {
+  background-color: dark;
+}
+

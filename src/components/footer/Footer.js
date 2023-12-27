@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-grey py-4">
+    <footer className="foot text-grey py-4">
       <Container md="4">
         <Row className="align-items-center">
           <Col
@@ -18,7 +18,7 @@ const Footer = () => {
             />
           </Col>
           <Col md="4" className="text-center d-flex justify-content-center">
-            <div>
+            <div className="mt-2">
               <h5>DÓNDE ESTAMOS</h5>
               <p>
                 José Zilli 11 CP:2617
@@ -26,10 +26,14 @@ const Footer = () => {
                 Diego de Alvear, Santa Fe
                 <br />
                 República Argentina
-                <br />
+              </p>
+              <h5>CONTACTO</h5>
+              <p>
                 Email: hogarsanfrancisco.dda@hotmail.com
                 <br />
-                Teléfono: +54 (3462) 677137
+                Tel: 3382-493777
+                <br />
+                Cel: 3462-677137
               </p>
             </div>
           </Col>
@@ -47,7 +51,7 @@ const Footer = () => {
                 <img
                   src="images/brand-instagram.png"
                   alt="Instagram"
-                  style={{ width: "30px", height: "30px" }}
+                  style={{ width: "30px", height: "30px", filter: "invert(1)" }}
                 />
               </a>
               <a
@@ -58,7 +62,7 @@ const Footer = () => {
                 <img
                   src="images/brand-facebook.png"
                   alt="Facebook"
-                  style={{ width: "30px", height: "30px" }}
+                  style={{ width: "30px", height: "30px", filter: "invert(1)"  }}
                 />
               </a>
             </div>

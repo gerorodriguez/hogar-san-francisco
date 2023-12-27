@@ -5,7 +5,7 @@ import Carousels from "./components/carousel/Carousels";
 import ContentBody from "./components/content-body/ContentBody";
 import Section from "./components/sections/Section";
 import Footer from "./components/footer/Footer";
-import CarouselWords from "./components/carousel-words/CarouselWords";
+import CarouselWords from "./components/carousel/CarouselWords";
 import Services from "./components/sections/Services";
 
 function App() {

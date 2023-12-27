@@ -1,110 +1,53 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { BsCheck } from "react-icons/bs";
+import { BsFillCircleFill } from "react-icons/bs";
+import { BsCheckCircle } from "react-icons/bs";
 
 const Services = () => {
-  return (
-    <Container>
-      <div>
-        <h1 className="servic">Servicios Integrales</h1>
-      </div>
-      <div>
-        <ul>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-check"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M5 12l5 5l10 -10"></path>
-            </svg>
-            <span>Enfermeria Profesional</span>
-          </li>
-          <li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-check"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M5 12l5 5l10 -10"></path>
-            </svg>
-            <span>Enfermeria Profesional</span>
-          </li><li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-check"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M5 12l5 5l10 -10"></path>
-            </svg>
-            <span>Enfermeria Profesional</span>
-          </li><li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-check"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M5 12l5 5l10 -10"></path>
-            </svg>
-            <span>Enfermeria Profesional</span>
-          </li><li>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="icon icon-tabler icon-tabler-check"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              stroke-width="2"
-              stroke="currentColor"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            >
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-              <path d="M5 12l5 5l10 -10"></path>
-            </svg>
-            <span>Enfermeria Profesional</span>
-          </li>
+  const serviceList1 = [
+    "Lavandería",
+    "Actividades recreativas",
+    "Programa de Cuidados Paliativos",
+    "Dietas especializadas",
+    "Habitaciones amplias y luminosas",
+    "Espacios de esparcimiento",
+    "Peluquería y Manicuría",
+  ];
 
-        </ul>
-      </div>
-      <div className="d-flex justify-content-center mb-4">
-        <Button size="lg" className="btn-custom mt-5">
-          Conocé más sobre nosotros
-        </Button>
-      </div>
-      
+  const serviceList2 = [
+    "Atención medica integral las 24hs.",
+    "Enfermería profesional las 24hs.",
+    "Seguimiento médico diario",
+    "Atención psicosocial permanente",
+    "Acompañamiento Terapéutico",
+    "Kinesiología y Rehabilitación",
+  ];
+
+  const renderServiceList = (list) => {
+    return (
+      <ul>
+        {list.map((service, index) => (
+          <li key={index}>
+            <BsCheckCircle />
+            <span> {service}</span>
+          </li>
+        ))}
+      </ul>
+    );
+  };
+
+  return (
+    <Container className="cold">
+      <Row>
+        <Col className="servic ">
+          <h1>Servicios Integrales</h1>
+        </Col>
+      </Row>
+      <Row className="list">
+        <Col md={6}>{renderServiceList(serviceList1)}</Col>
+        <Col md={6}>{renderServiceList(serviceList2)}</Col>
+      </Row>
     </Container>
   );
 };

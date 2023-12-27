@@ -1,13 +1,15 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Button, Container, Link } from "react-bootstrap";
 
 const ContentBody = () => {
   return (
     <Container>
-      <h1 className="d-flex flex-column align-items-center mt-5 text-center">
+      <h1 className="d-flex flex-column align-items-center mt-5 text-center servic">
         Residencia de Adultos Mayores San Francisco
       </h1>
-      <h3 className="content d-flex flex-column align-items-center text-center mb-5 ">Excelencia y compromiso</h3>
+      <h3 className="content d-flex flex-column align-items-center text-center mb-5 ">
+        Excelencia y compromiso
+      </h3>
       <div className="content d-flex justify-content-between">
         <div className="text-center">
           <img
@@ -16,7 +18,7 @@ const ContentBody = () => {
             src="images/24-hourss.png"
             style={{ width: "80px" }}
           />
-          <p>Atención las 24 hs. del día</p>
+          <p className="servic">Atención las 24 hs. del día</p>
         </div>
         <div className="text-center">
           <img
@@ -25,7 +27,7 @@ const ContentBody = () => {
             src="images/clipboard-heart.png"
             style={{ width: "80px" }}
           />
-          <p>Los mejores cuidados a cada necesidad</p>
+          <p className="servic">Los mejores cuidados a cada necesidad</p>
         </div>
         <div className="text-center">
           <img
@@ -34,17 +36,20 @@ const ContentBody = () => {
             src="images/thermometer.png"
             style={{ width: "80px" }}
           />
-          <p>Promovemos la calidad de vida</p>
+          <p className="servic">Promovemos la calidad de vida</p>
         </div>
       </div>
       <div className="d-flex justify-content-center mt-2">
-        <Button  size="lg" className="btn-custom mt-5">
+        <Button
+          href="https://docs.google.com/forms/d/1iiXehcG8QMIhszSkeS_KKRKS4oO45WkSU8b5aGnbmEo/viewform?edit_requested=true"
+          size="lg"
+          className="btn-custom mt-5"
+          target="_blank" // Añade el atributo target="_blank"
+        >
           Conocé más sobre nosotros
         </Button>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </Container>
   );
 };
